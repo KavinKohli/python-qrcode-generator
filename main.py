@@ -1,17 +1,13 @@
 import qrcode
 from PIL import Image
 
-
-print("Enter the text / URL / vCard to generate QR for:")
+print("Enter multiple lines. Finish by entering a single dot (.) and pressing Enter:")
 qr_data = ""
-print("Type your data below. Press Enter then Ctrl+D (Linux/Mac) or Ctrl+Z (Windows):")
-
-try:
-    while True:
-        line = input()
-        qr_data += line + "\n"
-except EOFError:
-    pass
+while True:
+    line = input()
+    if line.strip() == ".":
+        break
+    qr_data += line + "\n"
 
 
 qr = qrcode.QRCode(
