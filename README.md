@@ -9,7 +9,7 @@ This project lets you generate QR codes for any text, link, or custom message â€
 
 > ðŸ“Œ Here is a quick preview of the QR generator in action:
 
-![QR Generator Demo](assets/your-gif-file-name.gif)
+![QR Generator Demo](assets/demo.gif)
 
 ---
 
