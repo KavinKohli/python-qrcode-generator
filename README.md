@@ -37,7 +37,6 @@ This project lets you generate QR codes for any text, link, or custom message �
 ┗ 📜 demo.gif
 
 
-
 ---
 
 ##  How to Run
